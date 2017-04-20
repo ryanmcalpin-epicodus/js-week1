@@ -10,4 +10,5 @@ $(document).ready(function() {
     var city = $('#location').val();
     $('#location').val("");
     currentWeatherObject.getWeather(city, displayHumidity);
+  });
 });
